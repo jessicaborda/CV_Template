@@ -1,0 +1,34 @@
+.content-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Asegura que todo esté alineado a la izquierda */
+    justify-content: flex-start; /* Asegura que el contenido comience desde arriba */
+    height: 100%; /* Asegura que use el espacio disponible */
+    padding: 0 20px;
+    padding-top: 45px;
+}
+
+.content-tile {
+    align-self: flex-start; /* Se asegura de que quede a la izquierda */
+    text-align: left;
+    
+}
+
+.content-container h1{
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 25px;
+    gap: 5px;
+    padding-bottom: 5px;
+    
+  }
+  
+  .content-container h2 {
+    color: var(--color-primary);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  

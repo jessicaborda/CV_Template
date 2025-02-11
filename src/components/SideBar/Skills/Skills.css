@@ -1,0 +1,20 @@
+.skills-container {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.skills-title {
+    margin-bottom: 20px;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-third);
+    margin: 10px; /* Espacio entre las filas */
+}

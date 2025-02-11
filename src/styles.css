@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+   margin: 0;
+    font-family: "Archivo", serif;
+}
+
+:root{
+    --color-primary: #5f7470;
+    --color-secondary: #889696;
+    --color-third: #b8bdb5;
+    --color-text: #2f4550;
+    --color-font: #e0e2db;
+  }
+
+  h1 {
+    color: var(--color-third);
+    font-size: 20px;
+    font-weight: 800;
+
+  }
+  
+  h2 {
+    color: var(--color-third);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  h3 {
+    color: var(--color-third);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 5px;
+  }
+  
+  h4 {
+    color: var(--color-third);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 5px;
+  }
+  
+  h5 {
+    color: var(--color-secondary);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+  
+  p {
+    color: var(--color-text);
+    font-size: 16px;
+    font-weight: 300;
+  }

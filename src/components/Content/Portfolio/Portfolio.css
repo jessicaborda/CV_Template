@@ -1,0 +1,9 @@
+.portfolio-container h2{
+    color: var(--color-primary);
+    font-size: 16px;
+    padding: 20px;
+}
+
+.portfolio {
+    line-height: 25px;
+}
