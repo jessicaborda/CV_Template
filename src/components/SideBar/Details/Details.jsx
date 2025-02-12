@@ -2,7 +2,7 @@ import { IconText } from "../../../injectors/iconText";
 import "./Details.css";
 
 const detailsData = [
-  { iconPath: "/assets/template/Ubicacion_icon.svg", text: "Colombia" },
+  { iconPath: "/CV_Template/assets/template/Ubicacion_icon.svg", text: "Colombia" },
   { iconPath: "/assets/template/Home_Icon.svg", text: "Tunja, Boyacá" },
   {
     iconPath: "/assets/template/Correo_icon.svg",
