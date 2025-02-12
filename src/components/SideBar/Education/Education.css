@@ -1,8 +1,6 @@
 .education {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
+    text-align: center;
+    margin: 10px 0;
 }
 
 .education-container {
@@ -11,4 +9,10 @@
   flex-direction: column;
   text-align: left;
   gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.education h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }

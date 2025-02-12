@@ -1,3 +1,9 @@
+.experience-container {
+    width: fit-content;
+    max-width: 340px;
+    min-width: 100px;
+}
+
 .experience-container h2{
     color: var(--color-primary);
     font-size: 16px;

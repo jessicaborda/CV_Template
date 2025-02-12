@@ -7,7 +7,9 @@ const styles = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  height: "100vh",
+  width: "100%",
+  minHeight: "100vh", // Asegura que el contenedor ocupe toda la pantalla
+  overflow: "hidden",
 };
 
 createRoot(document.getElementById("root")).render(

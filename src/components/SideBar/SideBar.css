@@ -1,7 +1,18 @@
 .sideBarContainer {
     width: 40%;
-    height: 100%;
+    flex-shrink: 0; /* Evita que se encoja */
+    display: flex;
+    flex-direction: column; /* Permite que crezca con su contenido */
+    padding: 1rem;
     background-color: #5f7470;
-    padding: 0 20px;
+}
+
+/* Diseño responsive para móviles */
+@media (max-width: 500px) {
+
+
+    .sideBarContainer {
+        width: 100%; /* Hace que el Sidebar ocupe todo el ancho en móviles */
+    }
 }
 

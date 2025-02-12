@@ -22,8 +22,8 @@ const educationData = [
 export const Education = () => {
   return (
     <>
-      <h2>Educación</h2>
       <div className="education">
+        <h2>Educación</h2>
         <div className="education-container">
           {educationData.map((item, index) => (
             <TextColumn

@@ -1,8 +1,18 @@
 .template-container{
-    width: 30vw;
-    height: 75vh;
-    background-color: var(--color-font);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%; /* Se ajusta al ancho disponible */
+    max-width: 700px; /* Límite máximo de ancho */
+    min-width: 300px; /* Límite mínimo */
+    background-color: var(--color-text);
+    align-items: stretch; /* Estira los hijos a la misma altura */
+    overflow: hidden; /* Permite desplazamiento si el contenido es muy grande */
+}
+
+/* Diseño responsive para móviles */
+@media (max-width: 500px) {
+    .template-container {
+        flex-direction: column; /* Apila los elementos en dispositivos pequeños */
+        height: auto;
+        min-height: 100vh; /* Permite que crezca según el contenido */
+    }
 }

@@ -1,15 +1,16 @@
 .details-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+   
 }
 
 .info-container {
-    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    align-items: flex-start; /* Esto alinea los elementos a la izquierda */
+    width: 100%; /* O ajusta el ancho que necesites */
+    margin-top: 20px; /* Espaciado entre el título y los elementos de info */
 }
 
 .text {
@@ -17,14 +18,9 @@
     padding: 0 20px;
 }
 
-.icon {
-    fill: var(--color-third);
-}
 
-.photo {
-    margin: 20px 0;
-}
 
 .details-container h2 {
+    text-align: center;
     margin: 10px 0;
 }
