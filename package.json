@@ -1,6 +1,7 @@
 {
   "name": "cv_template",
   "private": true,
+  "homepage": "https://jessicaborda.github.io/CV_Template"
   "version": "0.0.0",
   "type": "module",
   "scripts": {
